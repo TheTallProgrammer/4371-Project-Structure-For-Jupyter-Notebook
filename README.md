@@ -176,27 +176,34 @@ The **Multi-Tiered Hybrid Intrusion Detection System (MTH-IDS)** employs a tri-l
 
 ### Implemented Algorithms 🧠
 
-1.  **Isolation Forest (Logan Falkenberg)**
+1. **Isolation Forest (Logan Falkenberg)**
     
     -   **Purpose:** Detects and filters out outliers from the dataset before applying synthetic data balancing techniques like SMOTE.
     -   **Implementation Details:**
         -   Applied after Z-score normalization and before SMOTE to ensure data cleanliness.
         -   Parameters: `n_estimators=200`, `contamination='auto'`, `random_state=42`, `n_jobs=-1`.
         -   Filters out anomalies to prevent SMOTE from misclassifying anomalies as normal data, thereby reducing confusion in model training.
-2.  **One-Class SVM (Brad Hayes)**
+2. **One-Class SVM (Brad Hayes)**
     
     -   **Purpose:** Learns the characteristics of normal data to effectively identify anomalies.
     -   **Implementation Details:**
         -   Utilizes a radial basis function (RBF) kernel with `gamma='auto'` and `nu=0.5`.
         -   Maps predictions to binary labels to align with the dataset's labeling convention.
         -   Evaluates model performance using classification reports and confusion matrices to ensure reliability.
-3.  **Local Outlier Factor (LOF) (Collin Reisman and Angela Noronha)**
+3. **Local Outlier Factor (LOF) (Collin Reisman and Angela Noronha)**
     
     -   **Purpose:** Identifies local density deviations of data points, effectively detecting outliers in the dataset.
     -   **Implementation Details:**
         -   Standardizes data before applying PCA for dimensionality reduction.
         -   Uses `n_neighbors=20` and `contamination=0.1` to fine-tune anomaly detection sensitivity.
         -   Visualizes anomaly scores and outlier distributions to assess detection thresholds and model performance.
+4. **Voting Mechanism (Phillip Henry)**
+    
+    -   **Purpose:** Combines the predictions from multiple machine learning models (Decision Tree, Random Forest, Extra Trees, and XGBoost) to enhance robustness, accuracy, and overall model performance.
+    -   **Implementation Details:**
+        -   Uses soft voting, where the predicted probabilities from all models are averaged to determine the final prediction. This approach leverages the confidence of each model's prediction. 
+        - Integrates hyperparameter-optimized versions of Decision Tree, Random Forest, and Extra Trees, along with an XGBoost classifier. 
+        - Evaluates ensemble performance with metrics such as accuracy, classification reports, and confusion matrices, providing insights into its effectiveness.
 
 ### Purpose of Implemented Functionalities 🎯
 
