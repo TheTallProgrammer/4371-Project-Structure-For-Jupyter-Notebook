@@ -190,7 +190,7 @@ The **Multi-Tiered Hybrid Intrusion Detection System (MTH-IDS)** employs a tri-l
         -   Utilizes a radial basis function (RBF) kernel with `gamma='auto'` and `nu=0.5`.
         -   Maps predictions to binary labels to align with the dataset's labeling convention.
         -   Evaluates model performance using classification reports and confusion matrices to ensure reliability.
-3.  **Local Outlier Factor (LOF) (Collin)**
+3.  **Local Outlier Factor (LOF) (Collin Reisman and Angela Noronha)**
     
     -   **Purpose:** Identifies local density deviations of data points, effectively detecting outliers in the dataset.
     -   **Implementation Details:**
