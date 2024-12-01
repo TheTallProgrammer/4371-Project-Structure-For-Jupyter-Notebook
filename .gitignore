@@ -1,2 +1,7 @@
 .ipynb_checkpoints/
 __pycache__/
+
+
+# Phillip's IDE Stuff
+.DS_Store
+.idea/
