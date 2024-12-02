@@ -43,7 +43,7 @@ Welcome to the **Multi-Tiered Hybrid Intrusion Detection System for Internet of 
     - [Implemented Algorithms 🧠](#implemented-algorithms-)
     - [Purpose of Implemented Functionalities 🎯](#purpose-of-implemented-functionalities-)
   - [Usage 💡](#usage-)
-    - [Research Context and Evolution](#research-context-and-evolution)
+  - [Research Context and Evolution 📖](#research-context-and-evolution-)
 
 ## Repository 📂
 
@@ -226,7 +226,7 @@ Once the notebook is running, you can interact with the **Multi-Tiered Hybrid In
 -   **🔍 Detect Intrusions:** Apply trained models to identify and respond to potential security threats in real-time.
 
 
-### Research Context and Evolution
+## Research Context and Evolution 📖
 
 **Foundational Research:**  
 The study by **Hoppe, Kiltz, and Dittmann (2008)** laid the groundwork for securing vehicular networks by analyzing vulnerabilities in CAN protocols and proposing initial countermeasures. This foundational work emphasized the critical need for intrusion detection systems in automotive communication.  
