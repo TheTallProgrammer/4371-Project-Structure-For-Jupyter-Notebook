@@ -43,7 +43,7 @@ Welcome to the **Multi-Tiered Hybrid Intrusion Detection System for Internet of 
     - [Implemented Algorithms 🧠](#implemented-algorithms-)
     - [Purpose of Implemented Functionalities 🎯](#purpose-of-implemented-functionalities-)
   - [Usage 💡](#usage-)
-  - [References](#references)
+    - [Research Context and Evolution](#research-context-and-evolution)
 
 ## Repository 📂
 
@@ -226,13 +226,13 @@ Once the notebook is running, you can interact with the **Multi-Tiered Hybrid In
 -   **🔍 Detect Intrusions:** Apply trained models to identify and respond to potential security threats in real-time.
 
 
+### Research Context and Evolution
 
-## References
+**Foundational Research:**  
+The study by **Hoppe, Kiltz, and Dittmann (2008)** laid the groundwork for securing vehicular networks by analyzing vulnerabilities in CAN protocols and proposing initial countermeasures. This foundational work emphasized the critical need for intrusion detection systems in automotive communication.  
+- **Hoppe, T., Kiltz, S., & Dittmann, J.** (2008). *Security Threats to Automotive CAN Networks – Practical Examples and Selected Short-Term Countermeasures*. In M. D. Harrison & M. A. Sujan (Eds.), *Computer Safety, Reliability, and Security. SAFECOMP 2008. Lecture Notes in Computer Science* (Vol. 5219). Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-540-87698-4_21  
 
-Yang et al. [1](#ref1) introduced **MTH-IDS**, a Multi-Tiered Hybrid Intrusion Detection System designed specifically for IoV. This system employs a layered approach, combining multiple detection techniques to enhance accuracy and reliability. By integrating signature-based and anomaly-based methods, MTH-IDS effectively identifies a wide range of cyber threats, ensuring comprehensive protection for vehicular networks.
+**Subsequent Research:**  
+The study by **Qin, Xun, and Liu (2024)** builds on prior frameworks, including MTH-IDS, by introducing a cloud–vehicle collaborative system for intrusion detection in the Internet of Vehicles. It extends hybrid methodologies to improve detection accuracy and response in modern vehicular networks.  
+- **Qin, J., Xun, Y., & Liu, J.** (2024). *CVMIDS: Cloud–Vehicle Collaborative Intrusion Detection System for Internet of Vehicles*. *IEEE Internet of Things Journal, 11*(1), 321–332. https://doi.org/10.1109/JIOT.2023.3318181  
 
-Similarly, Wang et al. [2](#ref2) developed a **lightweight IDS** leveraging transfer learning and the MobileNetV2 architecture. Their approach emphasizes computational efficiency without compromising detection performance, making it ideal for resource-constrained IoV devices. The incorporation of hyper-parameter optimization further refines the system's ability to accurately detect intrusions, demonstrating a balance between speed and accuracy essential for real-time vehicular applications.
-
-1.  <span id="ref1"></span> L. Yang, A. Moubayed, and A. Shami, "MTH-IDS: A Multitiered Hybrid Intrusion Detection System for Internet of Vehicles," _IEEE Internet of Things Journal_, vol. 9, no. 1, pp. 616–632, Jan. 2022, doi: [10.1109/JIOT.2021.3084796](https://doi.org/10.1109/JIOT.2021.3084796).
-    
-2.  <span id="ref2"></span> Y. Wang, G. Qin, M. Zou, _et al._, "A lightweight intrusion detection system for Internet of Vehicles based on transfer learning and MobileNetV2 with hyper-parameter optimization," _Multimedia Tools and Applications_, vol. 83, pp. 22347–22369, Mar. 2024, doi: [10.1007/s11042-023-15771-6](https://doi.org/10.1007/s11042-023-15771-6).
