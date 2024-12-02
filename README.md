@@ -2,6 +2,7 @@
 ![IoV Intrusion Detection System](./readme_images/visual.png)
 
 # Multi-Tiered Hybrid Intrusion Detection System for Internet of Vehicles (IoV) 🚗
+**Original Codebase Repository**: https://github.com/Western-OC2-Lab/Intrusion-Detection-System-Using-Machine-Learning
 
 ---
 ### **Group 10 in Course 4371:**
